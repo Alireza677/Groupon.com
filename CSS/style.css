@@ -1,0 +1,12 @@
+body{
+    font-family: 'Open Sans', sans-serif; 
+    
+}
+*{
+    box-sizing: border-box;
+}
+.main-content{
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+}

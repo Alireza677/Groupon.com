@@ -1,0 +1,32 @@
+.footer{
+    background-color: #230f33;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    height: 300px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.sec-foot ul li{
+    font-weight: 500;
+}
+.sec-foot{
+    line-height: 35px;
+    color: aliceblue;
+    padding: 10px;
+    display: grid;
+    grid-template-rows: repeat(1,1fr);
+}
+
+.sec-foot ul :first-child{
+    margin-bottom: 10px;
+    
+    
+}
+.sec-foot ul li:hover{
+text-decoration:underline;
+cursor: pointer;
+}
+.foot-main{
+    background-color: #230f33;
+    width: 100%;
+}

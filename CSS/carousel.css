@@ -1,0 +1,73 @@
+.carousel-bar {
+   
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.card img{
+    border-radius: 5px;
+    margin-bottom: 0;
+    transition: transform .3s;
+}
+.card img:hover{
+    transform: scale(1.1);
+}
+.carousel-bar h3{
+    margin-top: 2px;
+}
+.carousel-bar p{
+    font-size: 14px;
+}
+.carousel-bar p span{
+    color: red;
+    font-weight: bold;
+    
+}
+.card{
+
+    margin: 10px;
+    height: 400px;
+}
+
+ .car-sp2{
+    color: green;
+    font-weight: bold;
+}
+.experience{
+    max-width: 1200px;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding-left: 10px;
+}
+.experience img{
+    width: 250px;
+    height: 142px;
+}
+.popular{
+    max-width: 1200px;
+    gap: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr) );
+    padding-left: 10px;
+}
+.popular img{
+    transition:50ms;
+    width: 250px;
+    height: 142px;
+}
+
+@media screen and (max-width: 800px){
+    .popular{
+        grid-template-columns: repeat(3,1fr);
+        gap: 5px;
+    }
+    .popular img{
+        width: 236px;
+        height: 142px;
+    }
+
+    .card4{
+        display: none;
+    }
+}
